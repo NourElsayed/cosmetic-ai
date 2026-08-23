@@ -12,7 +12,9 @@ raw_datasets/*
 !raw_datasets/dataset_samples/**
 
 # Large model files / caches
-models/*
+# Large model files / caches
+*.pth
+*.task
 hf_cache/
 .cache/
 huggingface/
