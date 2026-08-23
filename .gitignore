@@ -22,6 +22,8 @@ synthetic_after/*
 
 # Large processed data
 processed/*
+!processed/README.md
+!processed/ffhq_manually_excluded_after_processing.json
 
 # Third-party Python cache
 third_party/**/__pycache__/
