@@ -1,0 +1,5 @@
+﻿dataset_name,source,purpose,file_count,extensions,resolution,annotations
+CelebAMask-HQ,https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebAMask_HQ.html,Face parsing and facial-region segmentation.,402782,.png (372767); .jpg (30000); [no extension] (11); .txt (4),1024x1024 (100),"Facial component segmentation masks, attribute annotations, pose annotations, and face-image mapping information."
+FaceSynthetics,https://www.microsoft.com/en-us/research/publication/high-fidelity-face-synthetics/,Synthetic facial images for face-analysis research.,3000,.png (2000); .txt (1000),512x512 (100),Landmark and segmentation-related annotations.
+FFHQ,https://github.com/NVlabs/ffhq-dataset,Natural face images used as before-face images.,5002,.png (5000); .json (1); .csv (1),1024x1024 (100),Dataset metadata associated with the official distribution.
+SCUT-FBP5500,https://github.com/HCIILAB/SCUT-FBP5500-Database-Release,Facial landmark and beauty-score research data.,11017,.pts (5500); .jpg (5500); .txt (14); .xlsx (2); .zip (1),350x350 (100),"Facial landmarks, beauty ratings, image-source information, and train/test split files."

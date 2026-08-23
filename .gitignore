@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Raw datasets
+raw_datasets/*
+!raw_datasets/README.md
+!raw_datasets/dataset_inventory.csv
+!raw_datasets/dataset_samples/
+!raw_datasets/dataset_samples/**
+
+# Large model files / caches
+models/*
+hf_cache/
+.cache/
+huggingface/
+
+# Generated synthetic outputs
+synthetic_after/*
+
+# Large processed data
+processed/*
+
+# Third-party Python cache
+third_party/**/__pycache__/
